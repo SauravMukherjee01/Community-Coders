@@ -59,7 +59,7 @@
 
 /*===== Join Team CSS =====*/
 
-#jointeam .join-now-btn{
+ .join-now-btn{
     display: inline-block;
   font-weight: 500;
   text-align: center;
@@ -69,11 +69,11 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding: 0px 20px;
+  padding: 0px 20px !important;
   font-size: 16px;
   border-radius: 8px;
   border: 0;
-  color: #fff;
+  color: #fff !important;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -110,3 +110,9 @@
 }
 
 /*===== Why to Choose CSS End=====*/
+
+#contact .submit-btn{
+    padding: 0px 20px;
+    margin: 0px;
+    text-align: left;
+}
